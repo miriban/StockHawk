@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ستوك هوك</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default">نظام العرض</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+
+    <string name="action_change_units">@string/pref_display_mode_default</string>
+
+
+    <string name="dialog_title">إضافة سهم</string>
+    <string name="dialog_hint">رمز السهم بالانجليزية</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">إضافة</string>
+
+    <string name="error_no_network">لا يوجد اتصال. سيتم تحديث قائمة الاسهم عندما يصبح الاتصال متاحاً</string>
+    <string name="error_no_stocks">لا يوجد أسهم. لإضافة أسهم اضغط على الزر بالاسفل!</string>
+
+    <string name="toast_stock_added_no_connectivity">تم إضافة الرمز %s . سيتم تحديث القائمة عندما تصبح الشبكة متاحة</string>
+    <string name="toast_no_connectivity">سيتم التحديث عندما تصبح الشبكة متاحة.</string>
+
+    <!-- Accessibility -->
+    <string name="add_new_stock_button_content_description">إضافة سهم جديد</string>
+
+</resources>
