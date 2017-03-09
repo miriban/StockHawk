@@ -32,6 +32,8 @@
     <string name="toast_stock_added_no_connectivity">تم إضافة الرمز %s . سيتم تحديث القائمة عندما تصبح الشبكة متاحة</string>
     <string name="toast_no_connectivity">سيتم التحديث عندما تصبح الشبكة متاحة.</string>
 
+    <string name="stock_history">تاريخ</string>
+
     <!-- Accessibility -->
     <string name="add_new_stock_button_content_description">إضافة سهم جديد</string>
 
