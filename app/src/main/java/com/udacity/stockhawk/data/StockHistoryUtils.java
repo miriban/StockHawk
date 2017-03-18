@@ -15,7 +15,7 @@ public class StockHistoryUtils
     {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy - MM - dd", Locale.US);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy", Locale.US);
 
         return dateFormat.format(calendar.getTime());
     }

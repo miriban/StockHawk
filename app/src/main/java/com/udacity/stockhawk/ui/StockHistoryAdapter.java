@@ -42,8 +42,7 @@ public class StockHistoryAdapter extends RecyclerView.Adapter<StockHistoryAdapte
 
     public StockHistoryAdapter(String historyData)
     {
-        values = StockHistoryUtils.getStockValues(historyData);
-        dates = StockHistoryUtils.getStockDates(historyData);
+
     }
 
     @Override
