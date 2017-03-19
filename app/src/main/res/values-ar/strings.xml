@@ -25,6 +25,7 @@
 
     <string name="error_no_network">لا يوجد اتصال. سيتم تحديث قائمة الاسهم عندما يصبح الاتصال متاحاً</string>
     <string name="error_no_stocks">لا يوجد أسهم. لإضافة أسهم اضغط على الزر بالاسفل!</string>
+    <string name="error_not_found">رمز السهم %s غير موجود.</string>
 
     <string name="toast_stock_added_no_connectivity">تم إضافة الرمز %s . سيتم تحديث القائمة عندما تصبح الشبكة متاحة</string>
     <string name="toast_no_connectivity">سيتم التحديث عندما تصبح الشبكة متاحة.</string>

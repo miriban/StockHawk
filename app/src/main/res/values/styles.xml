@@ -23,7 +23,7 @@
         <item name="android:textColor">@color/stock_text</item>
     </style>
     <style name="StockListStyle">
-        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:background">@color/background</item>
     </style>
     <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorPrimary">@color/toolbar_title</item>
