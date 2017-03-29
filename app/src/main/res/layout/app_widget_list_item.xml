@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_widget_quote_item"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:divider="?android:dividerHorizontal"
+    >
+    <TextView
+        android:id="@+id/tv_widget_symbol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:textSize="12sp"
+        tools:text="GOOG"
+        android:textColor="@color/stock_text"
+        />
+
+    <TextView
+        android:id="@+id/tv_widget_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="10sp"
+        android:textSize="14sp"
+        android:textColor="@color/stock_text"
+        android:gravity="end|center_vertical"
+        tools:text="1000.00" />
+</LinearLayout>

@@ -39,6 +39,22 @@
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity android:name=".ui.StockHistoryActivity"></activity>
+        <receiver
+            android:name=".widgets.StockWidgetProvider"
+            android:label="@string/stock_widget_name"
+            >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.udacity.stockhawk.ACTION_DATA_UPDATED"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_provider_info"/>
+        </receiver>
+        <!-- The service serving the RemoteViews to the collection widget -->
+        <service android:name=".widgets.StockWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="false" />
     </application>
 
 </manifest>

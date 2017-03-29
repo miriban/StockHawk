@@ -37,4 +37,8 @@
     <!-- Accessibility -->
     <string name="add_new_stock_button_content_description">Add New Stock</string>
 
+    <!-- Widget -->
+    <string name="stock_widget_name">StockHawk Widget</string>
+    <string name="stock_widget_title">Current Stocks</string>
+
 </resources>

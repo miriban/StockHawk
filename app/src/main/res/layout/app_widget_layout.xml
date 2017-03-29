@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <TextView
+            android:id="@+id/tv_title_widget"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:gravity="start|center_vertical"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/toolbar_title"
+            android:textSize="14sp"
+            android:drawableStart="@mipmap/ic_launcher"
+            tools:text="@string/app_name"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/StockListStyle"
+            >
+            <ListView
+                android:id="@+id/sv_widget"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:background="#ddd"
+                >
+            </ListView>
+            <TextView
+                android:id="@+id/tv_empty_widget"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/error_no_network"/>
+        </FrameLayout>
+</LinearLayout>
